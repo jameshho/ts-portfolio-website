@@ -1,25 +1,42 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router';
+import { BrowserRouter, Navigate } from 'react-router-dom';
+import './App.scss';
+import Footer from './pages/Footer';
+import Frontpage from './pages/Frontpage';
+
+import Projects from './pages/Projects';
+import Products from './pages/Products';
+import Roadmap from './pages/Roadmap';
+import About from './pages/About';
+import Navbar from './components/Navbar/Navbar';
+import Contact from './pages/Contact';
+import MarketPlace from './pages/MarketPlace/MarketPlace';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+        <Routes>
+
+          <Route path='/' element={<Frontpage />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/products' element={<Products />} />
+          <Route path='/roadmap' element={<Roadmap />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/marketplace' element={<MarketPlace />} />
+
+          <Route path="*" element={<Navigate to="/" replace />} />
+
+
+
+        </Routes>
+      <Footer></Footer>
+    </BrowserRouter>
+
+
   );
 }
 
