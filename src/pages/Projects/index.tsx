@@ -1,7 +1,4 @@
-import React from 'react'
 import ProjectsCard from './ProjectsCard'
-import ProjectsCardThree from './ProjectsCardThree'
-import ProjectsCardTwo from './ProjectsCardTwo'
 
 const Projects = () => {
   return (

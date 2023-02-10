@@ -8,7 +8,7 @@ const Roadmap = () => {
         <div className='roadmap' >
             <h1>My Tech Stack</h1>
             <div className="roadmap-icon-bar">
-                {iconsArr.map(i => <Icons img={i} />)}
+                {iconsArr.map((i,index) => <Icons img={i} key={index}/>)}
 
 
             </div>
@@ -16,7 +16,7 @@ const Roadmap = () => {
 
                 <h1>Immediate Focus</h1>
                 <ul>
-                    <li>NEXT.js</li>
+                    <li>NEXT.js and SEO</li>
                     <li className='bold'>Your next Billion-Dollar Startup?</li>
                     <li>Chart.js</li>
                     <li>React-table</li>

@@ -8,7 +8,7 @@ const Contact = () => {
 
     return (
         <div className='contact'>
-            <img src='/images/james-headshot-2.jpg' className='about-img' />
+            <img src='/images/james-headshot-2.jpg' className='about-img' alt="James admiring cherry blossom trees in full bloom." />
             <div>
 
                 <h1>Start the Conversation!</h1>

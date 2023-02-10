@@ -1,4 +1,3 @@
-import React from 'react'
 type PropsType = {
   img: string
 }
@@ -9,12 +8,12 @@ const Icons = (props: PropsType) => {
   } else if (props.img === ("express")) {
     return (
       <div className='icon-express-container'>
-        <img src="/images/icons/express.png" className="icon-express" />
+        <img src="/images/icons/express.png" alt="express.png" className="icon-express" />
       </div>
     )
   } else if (props.img === ("aws")) {
     return (
-        <img src="/images/icons/aws.svg" className="icon" />
+        <img src="/images/icons/aws.svg" alt="aws.svg" className="icon" />
     )
   } else {
     iconName = `${props.img}.svg`
@@ -22,7 +21,7 @@ const Icons = (props: PropsType) => {
   }
   return (
     <div>
-      <img src={"/images/icons/" + iconName} className="icon" />
+      <img src={"/images/icons/" + iconName} alt={iconName} className="icon" />
     </div>
   )
 }

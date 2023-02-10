@@ -1,5 +1,3 @@
-import React from 'react'
-
 const dataMarketPlace = [
    
     {
@@ -9,30 +7,30 @@ const dataMarketPlace = [
         length: 12,
         width: 16,
         height: 13,
-        description: "Sunbeam SGB8901 .9 Cubic Feet Microwave Oven 900 Watts. This black Sunbeam Microwave looks great in any kitchen. Heat up your leftovers or create fresh meals in this 900-watt, 0.9 cubic foot microwave. It's designed with a turntable for even heating and 9 programs for proper cooking. This is a great microwave for small spaces, it's packed with power at a great value.",
+        description: "Sunbeam SGB8901 Microwave. With a 900-watt output and 0.9 cubic feet of space, this compact appliance is perfect for small kitchens. The turntable ensures even heating, while the 9 pre-set programs make cooking a breeze.",
         brand: 'Sunbeam',
         img: ['microwave-1.jpg', 'microwave-2.jpg']
     },
     {
         id: 1002,
-        name: 'TV',
+        name: "TCL 50' Roku TV",
         price: 100,
         condition: 'Used (fair)',
-        length: 3.125,
+        length: 3.1,
         width: 43.8,
-        height: '25.5',
-        description: '4K 50 in Smart LED Roku TV',
+        height: 25.5,
+        description: 'Seamless streaming on 50" Smart TV 50S425 with pre-installed Apple TV and YouTube. Wireless connectivity to connect phone and share content. Stunning picture quality with 50" 4K display. Elevate home entertainment.',
         brand: 'TCL',
-        img: [ 'tv-4.jpg',"tv-1.png", 'tv-3.jpg', 'tv-2.jpg']
+        img: ["tv-1.jpg", 'tv-2.jpg', 'tv-3.jpg']
     },
     {
         id: 1006,
         name: 'Instant pot ',
         price: '40', condition: 'Used (fair)',
-        length: '12',
-        width: '12',
-        height: '13',
-        description: '7-IN-ONE: pressure cooker, rice cooker, slow cooker, yogurt maker, steamer, sautŽ pan and food warmer',
+        length: 12,
+        width: 12,
+        height: 13,
+        description: 'The 7-in-1 pressure cooker is a versatile kitchen appliance, functioning as a rice cooker, slow cooker, yogurt maker, steamer, sauté pan, and food warmer. Ideal for preparing rice, curry, soup and more.',
         brand: 'Instant Pot',
         img: ["instant-pot.jpg"]
     },
@@ -44,7 +42,7 @@ const dataMarketPlace = [
         length: 40,
         width: 22,
         height: 45,
-        description: 'Indoor stationary bike with Ipad mount & comfortable Seat Cushion; minimal noise. This item is 68lbs.',
+        description: 'YOSUDA indoor stationary bike with iPad mount, comfortable seat cushion, minimal noise, and speed/time tracking. 68lbs, not easily transportable.',
         brand: 'YOSUDA',
         img: ["stationary-bike.jpg"]
     },
@@ -54,7 +52,7 @@ const dataMarketPlace = [
         name: 'Guitar Pick',
         price: 20, 
         condition: 'New',
-        length: 1.77,
+        length: 1.8,
         width: 0.1,
         
         height: 1.18,
@@ -70,7 +68,7 @@ const dataMarketPlace = [
         length: 13.5,
         width: 13.5,
         height: 25.5,
-        description: 'Perfect for drying the handwash or delicate clothes; Spinned clothes dry easily within couple hours indoors; 5 minute timer with automatic stop.',
+        description:"Efficiently dry your handwashed or delicate garments with ease using this Spin Dryer. Designed to spin clothes dry in just a couple of minutes. The 5-minute timer features automatic shut-off, making it convenient and easy to use.",
         brand: 'Panda',
         img: ["spin-drayer-4.jpg", "spin-dryer-1.jpg", "spin-dryer-2.jpg", "spin-dryer-3.jpg"]
     },
@@ -78,7 +76,7 @@ const dataMarketPlace = [
         id: 1003,
         name: 'Tesla car',
         price: '60,000', condition: 'New',
-        length: '186.7',
+        length: 186.7,
         width: 76.1,
         height: 61,
         description: '--RESERVED-- Experience the future of driving with a Red Model Y Tesla. This electric marvel blends sleek style with eco-friendly performance, delivering an unrivaled driving experience.',
@@ -88,14 +86,15 @@ const dataMarketPlace = [
     {
         
         id: 1008,
-        name: 'Dumbbells',
-        price: '50',
+        name: '25lbs Dumbbell x2',
+        price: 50,
         condition: 'Used (like-new)',
-        length: '12.5', width: '5.3',
-        height: '4.6',
+        length: 12.5, 
+        width: 5.3,
+        height: 4.6,
         description: '2x 25LB Rubber Encased Hex Dumbbell Hand Weight; Non-slip textural surface for a secure grip',
         brand: 'Amazon Basics',
-        img: ['dumbbell-1.jpg', 'dumbbell-3.jpg', 'dumbbell2.jpg']
+        img: ['dumbbell-1.jpg', 'dumbbell2.jpg']
     },
     {
         id: 1009,
@@ -104,15 +103,15 @@ const dataMarketPlace = [
         condition: 'Used (like-new)',
         length: 19,
         width: 9.4,
-        height: 15.25,
+        height: 15.3,
         description: '14" Dish Reflector, adjustable tilt, 2 Heat settings - 700 & 1, 000 WATTS;',
         brand: 'Comfort Zone',
-        img: [ "heater-2.jpg","heater-1.jpg"]
+        img: ["heater-1.jpg"]
     },
     {
         id: 1010,
         name: 'Air Purifier'
-        , price: 0,
+        , price: 30,
         condition: 'Used(fair)',
         length: 13.5,
         width: 8.9,
@@ -124,13 +123,13 @@ const dataMarketPlace = [
 
     {
         id: 1005,
-        name: 'Ring toss set',
-        price: '5',
+        name: 'Ring Toss Set',
+        price: 5,
         condition: 'Used (like-new)',
         length: 6.5,
         width: 6.5
         , height: 11,
-        description: 'Set up the 10 vibrant cones and try to score by tossing the 10 color-matching rings right onto them',
+        description: 'Step up to the challenge with the fun and exciting Ring Toss Set! Set up the cones and see who can score the most points by tossing the rings and landing them on the cones. Get ready for a thrilling competition with friends and family.',
         brand: 'Target',
         img: ['hoop-1.jpg', 'hoop-2.jpg']
     },
@@ -139,9 +138,9 @@ const dataMarketPlace = [
         name: 'Sleep Sofa',
         price: 80,
         condition: 'Used (fair)',
-        length: 55.875,
-        width: 55.875,
-        height: 34.25,
+        length: 55.9,
+        width: 55.9,
+        height: 34.3,
         description: 'This sofa quickly and easily turns into a bed for two.',
         brand: 'Ikea',
         img: ["sleeper-sofa-1.png", "sleeper-sofa-2.png", "sleeper-sofa-3.png"]
@@ -163,9 +162,9 @@ const dataMarketPlace = [
         name: 'Desk',
         price: 40,
         condition: 'Used (fair)',
-        length: 47.25,
-        width: 23.625,
-        height: 28.75,
+        length: 47.3,
+        width: 23.7,
+        height: 28.8,
         description: 'Strong, sturdy, and lightweight light gray desk; adjustable height',
         brand: 'Ikea LAGKAPTEN / ADILS',
         img: ["ikea-desk-1.png", "ikea-desk-2.png"]
@@ -173,10 +172,11 @@ const dataMarketPlace = [
     {
         id: 1014,
         name: 'Chairs',
-        price: '25',
+        price: 25,
         condition: 'Used (fair)',
-        length: '15.38', width: '18.5',
-        height: '30.38',
+        length: 15.4, 
+        width: 18.5,
+        height: 30.4,
         description: '5 chairs; Light, airy and stackable ADDE is easy to store away when you want to clean, dance or just need a little more floor space.',
         brand: 'Ikea ADDE',
         img: ["ikea-chair-2.png", "ikea-chair-1.png"]
@@ -187,8 +187,8 @@ const dataMarketPlace = [
         price: 15,
         condition: 'Used (like-new)',
         length: 17.6,
-        width: 13.19,
-        height: 1.93,
+        width: 13.2,
+        height: 1.9,
         description: '10.2" Selfie Ring Light with 65" Adjustable Tripod Stand & Phone Holder, 3 light settings (warm, cool, and day light). Perfect for meetings or streaming!',
         brand: 'Kaiess',
         img: ["ringlight-1.png", "ring-light-2.jpg"]

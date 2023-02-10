@@ -13,7 +13,7 @@ const Frontpage = () => {
         <button onClick={()=>navigate('/projects')}>See my projects {'>'}</button>
       </div>
       <div className="frontpage-container-right">
-        <img src='/images/james-headshot-1.jpg' />
+        <img src='/images/james-headshot-1.jpg' alt="James walking his golden-doodle pet named Cooper on a leisurely stroll." />
       </div>
     </div>
   )
